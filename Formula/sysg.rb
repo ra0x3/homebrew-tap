@@ -5,29 +5,29 @@ class Sysg < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ra0x3/systemg/releases/download/v0.69.2/sysg-0.69.2-aarch64-apple-darwin.tar.gz"
-      mirror "https://sh.sysg.dev/sysg-0.69.2-aarch64-apple-darwin.tar.gz"
-      sha256 "3dc71797f64e4acbf20d926df5f2d268370ac204545300525972336d0abb1fd7"
+      url "https://github.com/ra0x3/systemg/releases/download/v0.70.3/sysg-0.70.3-aarch64-apple-darwin.tar.gz"
+      mirror "https://sh.sysg.dev/sysg-0.70.3-aarch64-apple-darwin.tar.gz"
+      sha256 "3ab852d7961a64f5d3c5d87d9f4c5e5c09c10048fdd410b09488c7685b7b7cb0"
     end
 
     on_intel do
-      url "https://github.com/ra0x3/systemg/releases/download/v0.69.2/sysg-0.69.2-x86_64-apple-darwin.tar.gz"
-      mirror "https://sh.sysg.dev/sysg-0.69.2-x86_64-apple-darwin.tar.gz"
-      sha256 "993ccf9ab819c21b327d9b5fb6c8c464907b0878a69a4f28f0f6855856c8dd44"
+      url "https://github.com/ra0x3/systemg/releases/download/v0.70.3/sysg-0.70.3-x86_64-apple-darwin.tar.gz"
+      mirror "https://sh.sysg.dev/sysg-0.70.3-x86_64-apple-darwin.tar.gz"
+      sha256 "920fa2289fe38c79bf36af8e929557cb0ad3a84ea3d742817070d067c57856a4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ra0x3/systemg/releases/download/v0.69.2/sysg-0.69.2-aarch64-unknown-linux-gnu.tar.gz"
-      mirror "https://sh.sysg.dev/sysg-0.69.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "66fc2e2e337aa7464b3c08b32b68f570422d6544a2e0fcd8240411ca9f10c215"
+      url "https://github.com/ra0x3/systemg/releases/download/v0.70.3/sysg-0.70.3-aarch64-unknown-linux-gnu.tar.gz"
+      mirror "https://sh.sysg.dev/sysg-0.70.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d99125f15bc7520eaa95b402620a1ca58a03b63d6b1941ee539394d35117caf1"
     end
 
     on_intel do
-      url "https://github.com/ra0x3/systemg/releases/download/v0.69.2/sysg-0.69.2-x86_64-unknown-linux-gnu.tar.gz"
-      mirror "https://sh.sysg.dev/sysg-0.69.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "85387ad1a2decb903cc23e5927563a82dc6d1a3a19c466a9c87a7a797fbf0794"
+      url "https://github.com/ra0x3/systemg/releases/download/v0.70.3/sysg-0.70.3-x86_64-unknown-linux-gnu.tar.gz"
+      mirror "https://sh.sysg.dev/sysg-0.70.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b01dfc4d9530f4f5f8118fdd20d5650cfe82d18ab577bbf6f2a11df19662f5cc"
     end
   end
 
